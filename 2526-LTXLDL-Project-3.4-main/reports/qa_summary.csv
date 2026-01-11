@@ -1,0 +1,34 @@
+id,description,count,percentage
+AQ-LOGIC-1,Logic không nhất quán (PM2.5 > PM10).,0,0.0
+AQ-LOGIC-2,Logic không nhất quán (UV Index > 0.1 vào ban đêm).,0,0.0
+AQ-NEG-1,"Giá trị âm không hợp lệ (PM10, PM2.5, UV, Ozone, hoặc CO < 0).",0,0.0
+DTYPE-1,Phát hiện giá trị phi số trong cột số học.,0,0.0
+DTYPE-1,Phát hiện giá trị phi số trong cột số học.,0,0.0
+GEN-DUP-1,Mỗi giờ chỉ nên có một bản ghi duy nhất.,0,0.0
+GEN-DUP-1,Mỗi giờ chỉ nên có một bản ghi duy nhất.,0,0.0
+GEN-GAP-1,Thiếu dữ liệu giờ (không đủ 8784 giờ cho năm nhuận 2024),0,0.0
+GEN-GAP-1,Thiếu dữ liệu giờ (không đủ 8784 giờ cho năm nhuận 2024),0,0.0
+GEN-TZ-1,Không tuân thủ múi giờ +07:00,0,0.0
+GEN-TZ-1,Không tuân thủ múi giờ +07:00,0,0.0
+IMPACT-CLEAN-CORRECT-AQ-LOGIC-2 (uv_index=0),Số ô đã sửa (Rule: AQ-LOGIC-2 (uv_index=0)),0,
+IMPACT-CLEAN-CORRECT-W-LOGIC-1 (wdir=0),Số ô đã sửa (Rule: W-LOGIC-1 (wdir=0)),0,
+IMPACT-CLEAN-DUP-AIR,Số dòng air quality trùng lặp đã xóa,0,
+IMPACT-CLEAN-DUP-WEATHER,Số dòng weather trùng lặp đã xóa,0,
+IMPACT-CLEAN-NULL-AIR,Số ô air quality bị chuyển thành NaN do QA,0,
+IMPACT-CLEAN-NULL-WEATHER,Số ô weather bị chuyển thành NaN do QA,0,
+IMPACT-FILL-INTERP-AIR,Số ô air quality được nội suy (linear),0,
+IMPACT-FILL-INTERP-WEATHER,Số ô weather được nội suy (linear),0,
+IMPACT-FILL-PRECIP-ZERO,Số ô mưa (precipitation) được fill bằng 0,0,
+IMPACT-FINAL-NAN,Số ô NaN còn lại trong file cuối cùng,0,
+IMPACT-FINAL-ROWS,Tổng số dòng trong file cuối cùng,366,
+IMPACT-INIT-AIR-NAN,Số ô NaN (air quality) ban đầu,0,
+IMPACT-INIT-AIR-ROWS,Số dòng air quality ban đầu,8784,
+IMPACT-INIT-WEATHER-NAN,Số ô NaN (weather) ban đầu,257,
+IMPACT-INIT-WEATHER-ROWS,Số dòng weather ban đầu,8784,
+MISSING-1,Phát hiện giá trị bị thiếu (NaN).,257,2.925774134790528
+MISSING-1,Phát hiện giá trị bị thiếu (NaN).,0,0.0
+W-BOUND-1,Nhiệt độ (temp) ngoài ngưỡng (0°C - 45°C).,0,0.0
+W-BOUND-2,"Hướng gió (wdir) ngoài ngưỡng [0, 360] độ.",0,0.0
+W-BOUND-3,Áp suất (pres) ngoài ngưỡng (950 - 1050 hPa).,0,0.0
+W-LOGIC-1,Logic gió không nhất quán (wspd == 0 nhưng wdir != 0).,0,0.0
+W-NEG-1,Giá trị âm không hợp lệ (prcp < 0 hoặc wspd < 0).,0,0.0
